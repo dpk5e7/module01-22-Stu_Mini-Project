@@ -1,0 +1,113 @@
+/* Universal Selector */
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(175, 175, 175);
+  color: darkgreen;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+#family-picture {
+  border-radius: 10px;
+}
+
+#family-figure {
+  float: left;
+  font-size: smaller;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: rgb(81, 13, 10);
+  width: 99%;
+  text-align: center;
+  /*line-height: 50px;*/
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+p {
+  padding: 10px;
+}
+
+footer {
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: rgb(175, 175, 175);
+  width: 99%;
+  position: fixed;
+  bottom: 0;
+  /*height: 20px;*/
+  text-align: left;
+  line-height: 20px;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.input-form {
+  border-radius: 5px;
+  background-color: rgb(175, 175, 175);
+  border-width: 2px;
+  border-style: dashed;
+  border-color: darkgreen;
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+input[type=text],
+input[type=email] {
+  border: 2px solid darkgreen;
+  border-radius: 2px;
+  color: white;
+  background-color: rgb(175, 175, 175);
+  -webkit-transition: 0.2s;
+  transition: 0.5s;
+  outline: none;
+  width: 200px;
+  padding: 2px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+  border: 3px solid darkgreen;
+  background-color: lightgray;
+}
+
+input[type=submit] {
+  color: darkgreen;
+}
+
+/* List items in navigation bar */
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+header a {
+  color: rgb(81, 13, 10);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(81, 13, 10);
+  text-decoration: underline;
+}
+
+header a:visited {
+  color: rgb(81, 13, 10);
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+}
